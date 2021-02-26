@@ -1,0 +1,74 @@
+*
+{ box-sizing: border-box; }
+
+
+
+
+
+body {
+  margin: auto; /* center all elements */
+  width: 960px; /* optimal page size */
+  
+}
+
+header {
+  height: 100px;
+  display: flex;
+}
+
+nav img:first-child {
+  float: left;
+}
+
+
+h4 { 
+  margin: 0px;
+
+}
+
+h6 {
+  display: inline-start;
+
+  margin: 0;
+}
+
+
+.contact {
+  float: right;
+}
+
+.section1 h1 {
+  font-size: 40px;
+}
+
+.section1 div { float: right;
+  display: flex;}
+
+  .section2 img { width: 100%;}
+  
+  .section3 p {
+    text-indent: 50px;
+    margin: 25px;
+  }
+
+  .section5 h1 {
+display: inline;  }
+
+.section5 img { float: left;
+margin-right: 30px;}
+
+.section5 p {
+  width :60%;
+  margin: 0;
+  height: ;
+}
+button {
+  float: right;
+}
+
+footer {
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
