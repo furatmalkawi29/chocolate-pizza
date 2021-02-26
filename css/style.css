@@ -12,11 +12,14 @@ body {
 }
 
 header {
-  height: 100px;
-  display: flex;
+  height: 70px;
+  
 }
 
 nav img:first-child {
+  float: left;
+}
+nav h4,{
   float: left;
 }
 
@@ -27,8 +30,6 @@ h4 {
 }
 
 h6 {
-  display: inline-start;
-
   margin: 0;
 }
 
@@ -44,7 +45,7 @@ h6 {
 .section1 div { float: right;
   display: flex;}
 
-  .section2 img { width: 100%;}
+  .section2 img { width: 100%; margin: 20px 0;}
   
   .section3 p {
     text-indent: 50px;
@@ -71,4 +72,26 @@ footer {
   margin: auto;
   align-items: center;
   text-align: center;
+}
+main hr{
+  width: 100%;
+  padding: 3px;
+  background-image: url(./hr-img.png);
+}
+button {
+  float: right;
+  border: 0;
+  background: green;
+  color: white;
+  padding: 10px;
+}
+.section5 article p{
+  margin: 0;
+}
+.section5{
+  margin-bottom: 50px;
+}
+.section4{
+  width: 100%;
+  margin: 20px 0;
 }
